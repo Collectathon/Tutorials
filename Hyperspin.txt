@@ -1,0 +1,72 @@
+Required:
+HyperSpin 1.3.3 Full Install 1.3.3 http://www.hyperspin-fe.com/files/category/761-hyperspin-windows/
+HyperSpin Upgrade Pack http://www.hyperspin-fe.com/files/category/761-hyperspin-windows/
+RocketLauncher v1.2.0.0 http://www.rlauncher.com/forum/vbdownloads.php?categoryid=2
+Microsoft .NET Framework 4.0 (If you don't have it already installed) https://www.microsoft.com/en-us/download/details.aspx?id=17851
+
+Optional:
+RocketLauncher Base Media Pack http://www.rlauncher.com/forum/vbdownloads.php?categoryid=2
+
+Notes:
+a. You will require an account to download from both the HyperSpin and RocketLauncher forums. It's free.
+b. The password for the RocketLauncher softwares is www.rlauncher.com
+	
+1. Extract the contents of the HyperSpin 1.3.3 .zip to a HyperSpin folder. I will put it in C: for this tutorial.
+   1.1. The path to your HyperSpin.exe should now be C:\HyperSpin\HyperSpin.exe
+2. Extract Rocketlauncher into a RocketLauncher folder on the root of your drive (C:\RocketLauncher) and make sure the path to RocketLauncher.exe is C:\RocketLauncher\RocketLauncher.exe
+3. Open your Settings folder in your HyperSpin folder C:\HyperSpin\Settings. Find the file named Settings.ini, open it in notepad. You should see at the top a line that reads [Main]. Right up under the [Main] line add Hyperlaunch_Path= C:\RocketLauncher\RocketLauncher.exe
+4. Open your RocketLauncher folder, open the RocketLauncherUI folder then open RocketLauncherUI.exe. If you are having trouble opening RocketLauncherUI and you get some message about failing to initialize, you will need to download Microsoft .NET Framework 4.0 to get RocketLauncherUI to work.
+   4.1. You will be greeted with a prompt asking you to update. Choose yes. Choose 'Latest' in the dropdown. Click on Check Updates at the bottom of the window. Wait for it to finish and then click Apply Updates. Close the update window. You can update in the future using the update button in the RocketLauncherUI tab.
+   4.2. RocketLauncherUI will restart. Once it has launched, close RocketLauncherUI.
+5. Open your RocketLauncher folder (C:\RocketLauncher), open the Settings folder then rename Global Emulators (example).ini to Global Emulators.ini. If there is already a file called Global Emulators.ini replace it with the example one.
+6. Open your RocketLauncher folder (C:\RocketLauncher), now look for the RocketLauncherUI folder open it and then open RocketLauncherUI.exe
+7. Click the RocketLauncherUI tab
+8. Click the small tab "Frontends" beneath the row of big tabs.
+9. Click the green + under the small tabs and add a new frontend. In the popup window titled Add Frontend:
+   9.1. Set Name to HyperSpin
+   9.2. To set Path, click the Magnifying glass to the right and locate your HyperSpin.exe application. (C:\HyperSpin\Hyperspin.exe which should look like ..\..\HyperSpin.exe if you are following the guide)
+   9.3. Set RocketLauncherUI plugin to Hyperspin in the dropdown box.
+   9.4. Set RocketLauncher plugin to Hyperspin in the dropdown box.
+   9.5. Check you didn't set them to HyperPin as it is something different!
+   9.6. Click on the button that looks like a blue floppy disk to save, if the button is not available just click the red x button to close and save the window.
+10. Highlight the HyperSpin frontend item in the list you just added and:
+    10.1. Click on the button that looks like a folder with a thumbtack to set HyperSpin as your default frontend.
+    10.2. Click on the button that looks like a robot terminator red eye to set HyperSpin as the active frontend.
+11. In the top left there button that looks like two green arrows making a circle. Click on the circular green arrows button to refresh the systems list to match the active frontend. You can close RocketLauncherUI.
+12. Extract the contents of the media pack into your RocketLauncher folder (C:\RocketLauncher).
+
+Congrats you have now installed HyperSpin + RocketLauncher!
+Below is how to install MAME into HyperSpin. Most (if not all) emulator are installed in the same fashion.
+
+
+COMMENT 1!
+
+Required:
+MAME http://www.mame.net/release.html
+
+Optional:
+Pre-Patched No Nag MAME.exe http://www.hyperspin-fe.com/files/category/3-3rd-party-apps/
+
+Notes:
+a. The prepatched MAME is not neccesary but operates better in a frontend. It should be on the first page of the site linked, if not go to the second page, one should be there! I just don't want to give you an outdated version.
+
+0. (Optional) Make a folder called Emulators. C:\Emulators
+1. Inside this folder create a new folder named after the emulator (MAME). C:\Emulators\MAME
+2. Inside your emulator folder install MAME. So the path to your mame.exe or mame64.exe should be C:\Emulators\MAME\mame.exe
+3. Overwite this file with the no nag patch .exe
+4. Open your RocketLauncher folder (C:\RocketLauncher), open the RocketLauncherUI folder then open RocketLauncherUI.exe
+5. On the left hand side in RocketLauncherUI you will see a list of all our systems and at the top is a system called Global. Changing settings in Global affects all of your settings in every system. Consider this the default settings.
+6. Click Global System and click on the big tab Emulators. If you installed correctly (didn't skip steps like step 5) you will be greeted with a long list of emulator names. Scroll down this list until you find MAME. Double click on it. A new window will appear. Fill in the path value by clicking on the magnifying glass to the right of the path entry and find your MAME emulator. There is no need to edit anything else here.
+7. Now highlight the MAME system in the systems list. and click on the big tab Emulators.
+8. In the MAME tab, choose your default emulator by clicking on the Magnifying glass. Choose MAME [global] from the list that appears.
+10. Close all windows
+
+Congrats! you have now setup MAME within RocketLauncher.
+Now to setup MAME for use with HyperSpin.
+
+1. Get the latest MAME xml from HyperList http://hyperlist.hyperspin-fe.com/
+2. Drop the xml you downloaded into C:\HyperSpin\Databases\MAME\ and rename it to MAME.xml. If it asks you to overwrite, choose yes.
+   (XML management can be a pain and so can renaming all those roms that you legally copied from your personal collection of actual games that you legally acquired through legal purchases.)
+3. For emulators other than MAME you will need to make sure that the file names for your roms match the names for the games found in your xml. For the best hyperspin xml management and renaming applications use Don's HyperSpin Tools or HyperTools
+
+Credit to ghutch92 on the HyperSpin forums which this tutorial is heavily based off. I have modified it to make it easier to follow and added images.

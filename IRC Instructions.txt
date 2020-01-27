@@ -1,0 +1,55 @@
+Hi, this is how to connect to IRC. Internet Relay Chat (IRC) is the best way to get help as soon as possible. The link to automatically be directed to UGC's IRC channel is above next to the forums button.
+
+Server - irc.ultimategamer.club
+Port - 6697
+Channel - #UGC
+
+Method 1. WebIRC
+Recommended WebIRC Clients
+[url=http://kiwiirc.com/]KiwiIRC[/url]
+[url=http://mibbit.com/]Mibbit[/url]
+
+0. This example will be using KiwiIRC
+
+1. Open up [url=http://kiwiirc.com/]KiwiIRC[/url]
+
+2. In the Nickname box, type your UGC username. This is for identification purposes and is just reasonable. Then type the channel you are connecting to whcih for UGC is #UGC
+
+3. Open up the Server and Network drop down and type the IRC network you with to join and the port. For example the UGC IRC server is irc.ultimategamer.club and the port is 6969. (The default port for most IRC networks is 6667). Tick SSL.
+
+4. Connect and enjoy!
+
+Steps 2-3
+[spoiler][img]https://picload.org/image/rggorllw/ugtut.png[/img][/spoiler]
+
+Method 2. IRC Client
+Recommended IRC Clients
+[url=https://hexchat.github.io/downloads.html]HexChat[/url] - Windows, Mac, Linux
+[url=http://www.mirc.com/]mIRC[/url] - Windows, Mac, Linux
+
+0. This example will use HexChat (It's free. mIRC is 30 trial)
+
+1. Download the client of your choice
+
+2. Type your UGC username into the Nickname and Username boxes
+
+3. Click add and type the name of the network (The network in this case is morethan.tv but I'm only using this for UGC so I named it Ultimate Gamer Club)
+
+4. Click edit.
+
+Steps 2-4
+[spoiler][img]https://picload.org/image/rggorlcr/ugtut2.png[/img][/spoiler]
+
+5. Replace newserver/6667 with irc.ultimategamer.club/6969
+
+6. (Optional but recommended) Click the Autojoin Channel tab and add #UGC. Tick 'Connect to selected servers only', 'Use SSL for all servers on this network', 'Accept invalid SSL certificates'. tick close
+
+Steps 5-6
+[spoiler][img]https://picload.org/image/rggorlca/ugtut3.png[/img][/spoiler]
+[spoiler][img]https://picload.org/image/rggorlcl/ugtut4.png[/img][/spoiler]
+
+7. Connect and enjoy!
+
+I hope this helps people.
+
+Edit - Thanks stonedmason and Novocaine for port changes 

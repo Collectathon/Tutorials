@@ -1,0 +1,78 @@
+Hi, this thread is to show everyone how to upload a torrent to UGC.
+This thread will include the clients:
+ - uTorrent/Bittorrent
+ - qBittorrent
+ - Deluge
+ - Tramission
+ - Others at request
+
+0. Go to the 'Upload Torrent' tab and copy the tracker url, you will need it later.
+
+[spoiler][img]http://picload.org/image/rgglglpp/u0.png[/img][/spoiler]
+
+[b]uTorrent/Bittorrrent:[/b]
+1. File -> Create new torrent.
+2. Select file or directory then select the file/s you wish to upload.
+3. Add the tracker URL from the 'Upload Torrent' page to the tracker box.
+4. (IMPORTANT) TICK THE PRIVATE BOX. THIS IS A MUST! This disables PEX, DHT and LPD for that torrent. This is essential for any private tracker.
+5. Click create and save as... then select somewhere to save the .torrent file.
+
+Step 1
+[spoiler][img]http://picload.org/image/rgglglwg/u1.png[/img][/spoiler]
+Steps 2-5
+[spoiler][img]http://picload.org/image/rgglglwd/u2.png[/img][/spoiler]
+
+
+[b]qBittorrent[/b]
+1. Tools -> Torrent Creator.
+2. Select file or folder then select the file/s you wish to upload.
+3. Add the tracker URL from the 'Upload Torrent' page to the tracker box.
+4. (IMPORTANT) TICK THE PRIVATE BOX. THIS IS A MUST! This disables PEX, DHT and LPD for that torrent. This is essential for any private tracker.
+5. Click create and save... then select somewhere to save the .torrent file.
+
+Step 1
+[spoiler][img]http://picload.org/image/rgglglpg/q1.png[/img][/spoiler]
+Steps 2-5
+[spoiler][img]http://picload.org/image/rgglglpd/q2.png[/img][/spoiler]
+
+
+[b]Deluge:[/b]
+1. File -> Create Torrent.
+2. Select file or folder then select the file/s you wish to upload.
+3. Add the tracker URL from the 'Upload Torrent' page to the tracker box in the tracker tab.
+4. (IMPORTANT) GO TO THE OPTIONS TAB AND TICK THE PRIVATE BOX. THIS IS A MUST! This disables PEX, DHT and LPD for that torrent. This is essential for any private tracker.
+5. Click save... then select somewhere to save the .torrent file.
+
+Step 1
+[spoiler][img]http://picload.org/image/rgglglic/d1.png[/img][/spoiler]
+Steps 2-3
+[spoiler][img]http://picload.org/image/rgglglip/d2.png[/img][/spoiler]
+Step 4-5
+[spoiler][img]http://picload.org/image/rgglglwc/d3.png[/img][/spoiler]
+
+[b]Transmission:[/b]
+1. File -> New.
+2. Select file or folder then select the file/s you wish to upload.
+3. Add the tracker URL from the 'Upload Torrent' page to the tracker box.
+4. (IMPORTANT) TICK THE PRIVATE BOX. THIS IS A MUST! This disables PEX, DHT and LPD for that torrent. This is essential for any private tracker.
+5. Click ok
+
+Step 1
+[spoiler][img]http://picload.org/image/rgglglpo/t1.png[/img][/spoiler]
+Steps 2-5
+[spoiler][img]http://picload.org/image/rgglglpc/t2.png[/img][/spoiler]
+
+
+6. Go to the 'Upload Torrent' page in UGC and add the torrent file. Then you can continue to fill out the rest of the details to the torrent. Fill out as much as possible.
+
+[spoiler][img]http://picload.org/image/rgglglwo/u3.png[/img][/spoiler]
+
+This is an example of a complete description and should be what you're aiming for:[url=http://ultimategamer.club/torrents-details.php?id=2448]Vernon's Legacy[/url]. If you can't complete this, that's ok, just do the best you can.
+
+7. Upload torrent. 
+
+8. After the torrent has been uploaded, you have to delete the .torrent file you made in your client. Then you must re-download the torrent from UGC. This will add your personal passkey to the torrent. You then have to recheck the file, then you have successfully uploaded a torrent. 
+
+Seed till the earth explodes!
+
+Enjoy!!! :) 
